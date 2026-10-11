@@ -7,6 +7,12 @@ CI job, a pre-release script, a cron loop over your own domains) is the
 one place you can't put it. This is a single binary that fetches the real
 URL, grades the response, and exits non-zero when the grade slips.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
